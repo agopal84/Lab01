@@ -1,0 +1,75 @@
+/* YOUR STYLES HERE */
+
+body {
+    background-color: rgb(112, 195, 186);
+}
+
+.text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:aliceblue;
+}
+#back-button {
+    text-decoration: none;
+    font-size: 20px;
+}
+#back-button:hover {
+    color: darkslategray;
+    text-decoration: underline;
+}
+
+#profile-header {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 80px;
+    margin-top: 40px;
+}
+
+.images{
+    justify-content: center;
+    display: flex;
+}
+
+#connections {
+    height: 225px;
+    width: 225px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+#connections:hover {
+    box-shadow: 0px 0px 40px #000000;
+}
+
+#wordle {
+    height: 225px;
+    width: 225px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+#wordle:hover {
+    box-shadow: 0px 0px 40px #000000;
+}
+
+#nytmini {
+    height: 225px;
+    width: 225px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+#nytmini:hover {
+    box-shadow: 0px 0px 40px #000000;
+}
+
+#message {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#submessage {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
